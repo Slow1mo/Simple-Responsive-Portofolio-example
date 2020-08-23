@@ -1,0 +1,154 @@
+html, body {
+    background-color: lightgrey;
+   
+    font-family: Roboto;
+    text-align: center;
+}
+
+* {
+  margin:0;
+  padding: 0;
+}
+
+#welcome-section {
+  height:100px;
+  margin-bottom: 50px;
+  margin-top: -50px;
+}
+
+.welcome {
+  background: lightgrey;
+  min-height: 55vh;
+  padding-top: 45vh;
+}
+
+#container {
+  width: 100%;
+  background-color: #ff9933;
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+
+#projects {
+ display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 12rem;
+  overflow: hidden;
+  background-color: #ff9933;
+}
+
+
+@media screen and (max-width: 800px) {
+    .work {
+        width: 50%;
+    }
+}
+#navbar {
+  position: fixed;
+  top: 0px;
+  width:100%;
+  background-color: #ff9933;
+}
+nav ul {
+  text-align: right;
+  position: fixed;
+  width: 100%;
+}
+
+.header {
+  padding: 160px 0 110px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 55px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+
+}
+
+nav ul li a {
+  color: black;
+}
+
+nav ul li a:hover {
+  color: blue;
+}
+
+.red
+  {
+    color: red;
+  }
+
+.yellow
+  {
+    color: #ff9933;
+  }
+
+.blue
+  {
+    color: blue;
+  }
+
+#projects {
+ display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 12rem;
+  overflow: hidden;
+  background-color: #ff9933;
+}
+
+#container {
+  width: 100%;
+  background-color: #ff9933;
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+   margin-bottom: 10rem;
+}
+
+.title {
+  padding:10px;
+}
+
+.details {
+  padding:20px;
+}
+
+.neu {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+#Contact {
+  background-color: #ff9933;
+  bottom: 0px;
+}
+
+@media screen and (max-width: 414px) {
+  
+  #projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  grid-gap: 2rem; 
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+  overflow: hidden;
+  background-color: #ff9933;
+}
+  
+  
+}
